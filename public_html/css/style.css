@@ -4,9 +4,9 @@
     margin: 0 auto;
 }
 
-.header {
+header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .title {
@@ -14,13 +14,17 @@
 }
 
 @media only screen and (max-width: 474px) {
+    /*h1 {
+        display: none;
+    }
+    
     .logo {
         display: none;
     }
     
     .hero img {
         display: none;
-    }
+    }*/
     
     img {
         width: 100%;
@@ -37,25 +41,33 @@
 }
 
 @media only screen and (min-width: 475px) and (max-width: 700px) {    
-    .header {
+    header {
         justify-content: space-between;
     }
     
-    .hero img {
+   img.heroImage {
         width: 100%;
     }
     
     .project {
         flex-direction: column;
     }
+    
+    img {
+        width: 100%;
+    }
 }
 
 @media only screen  and (min-width: 701px) {    
-    .header {
+    header {
         justify-content: space-between;
     }
     
-    .hero img {
+   img.heroImage {
+        width: 100%;
+    }
+    
+    img {
         width: 100%;
     }
 }
