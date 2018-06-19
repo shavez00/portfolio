@@ -78,18 +78,5 @@ header {
 }
 
 .project {
-    width: 100%;
     display: flex;
-}
-
-.one {
-    flex: 1;
-}
-
-.two {
-    flex: 1;
-}
-
-.three {
-    flex: 1;
 }
